@@ -11,6 +11,6 @@ I am using apis for developers which comes for free plan.Depoyment of these webs
 
 #Here are some images about the project : 
 
-![Screenshot 2023-07-13 170949](https://github.com/ishitaraina1807/NewsDolphin/assets/106395332/1482d58e-3a65-4e2d-9967-3583333ecd70)
+![Screenshot of the NewsDolhpin Page](Screenshot 2023-07-13 170949.png)
 
-![Screenshot 2023-07-13 171027](https://github.com/ishitaraina1807/NewsDolphin/assets/106395332/817ed7a1-c393-4b1d-b0ae-a9f5ea2adb0e)
+![Screenshot of the NewsDolhpin Page-2]()
