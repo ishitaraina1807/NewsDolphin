@@ -12,6 +12,6 @@ I am using **apis for developers** which comes for free plan.Depoyment of these 
 
 # Here are some images about the project : 
 
-![Screenshot of the NewsDolhpin Page](Screenshot 2023-07-13 170949.png)
+![Screenshot of the NewsDolhpin Page](Screenshot%202023-07-13%20170949.png)
 
-![Screenshot of the NewsDolhpin Page-2](Screenshot 2023-07-13 171027.png)
+![Screenshot of the NewsDolhpin Page-2](Screenshot%202023-07-13%20171027.png)
