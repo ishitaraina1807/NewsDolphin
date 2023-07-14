@@ -1,14 +1,14 @@
 # NewsDolphin - Stay Updated:
 
-This is a **react** project that uses News Apis in order to **fecth** the latest news around the country and display it for the user. **Bootstrap** is used for css components like cards, buttons and flex property.
+This is a **react** project that uses News Apis to **fetch** the latest news around the country and display it for the user. **Bootstrap** is used for CSS components like cards, buttons, and flex properties.
 
 # User-Interactive Project:
 
-This project is **user-interactive** as the user can click on the next or previous to visit the next page or previous page of the news feed. The user can also click on the "read more" button to visit to the news url which has the detailed news. 
+This project is **user-interactive** as the user can click on the next or previous to visit the following page or last page of the news feed. The user can also click on the "read more" button to visit the news URL which is the detailed news. 
 
 # Cannot deploy: 
 
-I am using **apis for developers** which comes for free plan.Depoyment of these websites which uses fetch function can be done using the "business plan" for apis.
+I am using **APIs for developers** which comes with the free plan. Deployment of these websites which uses the fetch function can be done using the "business plan" for APIs.
 
 # Here are some images about the project : 
 
