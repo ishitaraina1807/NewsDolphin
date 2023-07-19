@@ -11,7 +11,3 @@ This project is **user-interactive** as the user can click on the next or previo
 I am using **APIs for developers** which comes with the free plan. Deployment of these websites which uses the fetch function can be done using the "business plan" for APIs.
 
 # Here are some images about the project : 
-
-![Screenshot of the NewsDolhpin Page](Screenshot%202023-07-13%20170949.png)
-
-![Screenshot of the NewsDolhpin Page-2](Screenshot%202023-07-13%20171027.png)
