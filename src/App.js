@@ -1,18 +1,26 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import React from "react";
+import NavBar from "./components/NavBar";
+import News from "./components/News";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import React, { Component } from 'react'
-import NavBar from './components/NavBar';
-import News from './components/News';
-
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <NavBar/>
+export default function App() {
+  return (
+    <div>
+      {/* <Router> */}
+        <NavBar />
         <News pageSize={6} country ="in" category = "science"/>
-      </div>
-    )
-  }
+        {/* <Routes>
+          <Route path="/" element={<News pageSize={6} country="in" category="general" />} />
+          <Route path="/Business" element={<News pageSize={6} country="in" category="business" />} />
+          <Route path="/Health" element={<News pageSize={6} country="in" category="health" />} />
+          <Route path="/Sports" element={<News pageSize={6} country="in" category="sports" />} />
+          <Route path="/Science" element={<News pageSize={6} country="in" category="science" />} />
+          <Route path="/Technology" element={<News pageSize={6} country="in" category="technology" />} />
+          <Route path="/Entertainment" element={<News pageSize={6} country="in" category="entertainment" />} />
+        </Routes>
+      </Router> */}
+    </div>
+  );
 }
-
