@@ -8,10 +8,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <div>
-      {/* <Router> */}
+      <>
         <NavBar />
         <News pageSize={6} country ="in" category = "science"/>
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<News pageSize={6} country="in" category="general" />} />
           <Route path="/Business" element={<News pageSize={6} country="in" category="business" />} />
           <Route path="/Health" element={<News pageSize={6} country="in" category="health" />} />
@@ -20,7 +20,7 @@ export default function App() {
           <Route path="/Technology" element={<News pageSize={6} country="in" category="technology" />} />
           <Route path="/Entertainment" element={<News pageSize={6} country="in" category="entertainment" />} />
         </Routes>
-      </Router> */}
+      </>
     </div>
   );
 }
