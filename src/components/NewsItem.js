@@ -12,6 +12,7 @@ export class NewsComponent extends Component {
             <p className="card-text">
               {description}...
             </p>
+            {/* <p className="card-text"><small className="text-body-secondary">By {author? "Unknown" : author} on {date}</small></p> */}
             <a rel = "noreferrer" href={newsUrl} target= "_blank" className="btn btn-sn btn-dark">
               Read more
             </a>
