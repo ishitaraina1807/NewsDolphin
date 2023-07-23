@@ -6,9 +6,9 @@ export default class NavBar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
-          <div className="container-fluid bg-dark">
-            <Link className=" text-white navbar-brand" to="/">
-              NewsDolphin
+          <div className="container-fluid bg-dark p-4" >
+            <Link className=" text-white navbar-brand fs-4" to="/">
+             NewsDolphin
             </Link>
             <button
               className="navbar-toggler bg-white"
@@ -25,39 +25,39 @@ export default class NavBar extends Component {
               className="collapse navbar-collapse bg-dark"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 list-unstyled">
                 <li className="nav-item">
-                  <Link className="nav-Link active text-white" aria-current="page" to="#">
+                  <Link className="nav-Link active text-white list-inline-item mx-2 fs-4" aria-current="page" to="#">
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-Link text-white" to="/Business">
+                  <Link className="nav-Link text-white mx-2 fs-4" to="/Business">
                     Business
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-Link text-white" to="/Entertainment">
+                  <Link className="nav-Link text-white mx-2 fs-4" to="/Entertainment">
                     Entertainment
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-Link text-white" to="/Health">
+                  <Link className="nav-Link text-white mx-2 fs-4" to="/Health">
                     Health
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-Link text-white" to="/Science">
+                  <Link className="nav-Link text-white mx-2 fs-4" to="/Science">
                     Science
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-Link text-white" to="/Sports">
+                  <Link className="nav-Link text-white mx-2 fs-4" to="/Sports">
                     Sports
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-Link text-white" to="/Technology">
+                  <Link className="nav-Link text-white mx-2 fs-4" to="/Technology">
                     Technology
                   </Link>
                 </li>
