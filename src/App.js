@@ -3,24 +3,23 @@ import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import NavBar from "./components/NavBar";
 import News from "./components/News";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <div>
-      {/* <Router> */}
-        <NavBar />
-        <News pageSize={6} country ="in" category = "science"/>
-        {/* <Routes>
-          <Route path="/" element={<News pageSize={6} country="in" category="general" />} />
-          <Route path="/Business" element={<News pageSize={6} country="in" category="business" />} />
-          <Route path="/Health" element={<News pageSize={6} country="in" category="health" />} />
-          <Route path="/Sports" element={<News pageSize={6} country="in" category="sports" />} />
-          <Route path="/Science" element={<News pageSize={6} country="in" category="science" />} />
-          <Route path="/Technology" element={<News pageSize={6} country="in" category="technology" />} />
-          <Route path="/Entertainment" element={<News pageSize={6} country="in" category="entertainment" />} />
+      <>
+      <NavBar/>
+        <Routes>
+          <Route exact path="/" element={<News key="general" pageSize={15} country="in" category="general" />} />
+          <Route exact path="/Business" element={<News key="business" pageSize={15} country="in" category="business" />} />
+          <Route exact path="/Health" element={<News key="health" pageSize={15} country="in" category="health" />} />
+          <Route exact path="/Sports" element={<News key="sports" pageSize={15} country="in" category="sports" />} />
+          <Route exact path="/Science" element={<News key="science" pageSize={15} country="in" category="science" />} />
+          <Route exact path="/Technology" element={<News key="technology" pageSize={15} country="in" category="technology" />} />
+          <Route exact path="/Entertainment" element={<News key="entertainment" pageSize={15} country="in" category="entertainment" />} />
         </Routes>
-      </Router> */}
+      </>
     </div>
   );
 }
